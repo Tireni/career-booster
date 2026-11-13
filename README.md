@@ -21,6 +21,9 @@ The APK is a test build for 64-bit ARM Android phones running Android 7.0 or
 newer. It uses a development signing key, not a production app-store key.
 The APK connects to the project owner's temporary ngrok address. It only works
 while their computer, XAMPP, API, and tunnel are running; the address can change.
+While that tunnel is running, anyone with the APK can create an account and use
+the owner's Gemini API, which may incur charges. The owner can stop the tunnel
+when testing is finished.
 For your own independent setup, follow the steps below and build the app using
 your own API address. The server operator and Google Gemini receive the details
 you submit, so use sample information unless you trust the server operator.
